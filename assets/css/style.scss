@@ -4,116 +4,230 @@
 //
 //
 // -------- Grays --------
-$gray-000:        #24292e;
-$gray-100:        #2f363d;
-$gray-200:        #444d56;
-$gray-300:        #586069;
-$gray-400:        #6a737d;
-$gray-500:        #959da5;
-$gray-600:        #d1d5da;
-$gray-700:        #e1e4e8;
-$gray-800:        #f6f8fa;
-$gray-900:        #fafbfc; // body font color
+$gray-000: var(--gray-000);
+$gray-100: var(--gray-100);
+$gray-200: var(--gray-200);
+$gray-300: var(--gray-300);
+$gray-400: var(--gray-400);
+$gray-500: var(--gray-500);
+$gray-600: var(--gray-600);
+$gray-700: var(--gray-700);
+$gray-800: var(--gray-800);
+$gray-900: var(--gray-900); // body font color
 
-// // -------- Blue --------
-// $blue-000:        #f1f8ff !default;
-// $blue-100:        #dbedff !default;
-// $blue-200:        #c8e1ff !default;
-// $blue-300:        #79b8ff !default;
-// $blue-400:        #2188ff !default;
-// $blue-500:        #0366d6 !default; // Default: Passes AA with #fff
-// $blue-600:        #005cc5 !default;
-// $blue-700:        #044289 !default;
-// $blue-800:        #032f62 !default;
-// $blue-900:        #05264c !default; // Passes with 1/2/300 blues
+// -------- Blue --------
+$blue-000: var(--blue-000);
+$blue-100: var(--blue-100);
+$blue-200: var(--blue-200);
+$blue-300: var(--blue-300);
+$blue-400: var(--blue-400);
+$blue-500: var(--blue-500); // Default: Passes AA with #fff
+$blue-600: var(--blue-600);
+$blue-700: var(--blue-700);
+$blue-800: var(--blue-800);
+$blue-900: var(--blue-900); // Passes with 1/2/300 blues
 
-// // -------- Green --------
-// $green-000:       #f0fff4 !default;
-// $green-100:       #dcffe4 !default;
-// $green-200:       #bef5cb !default;
-// $green-300:       #85e89d !default;
-// $green-400:       #34d058 !default;
-// $green-500:       #28a745 !default; // Default. passes AA Large
-// $green-600:       #22863a !default; // Text green, passes AA on #fff
-// $green-700:       #176f2c !default;
-// $green-800:       #165c26 !default;
-// $green-900:       #144620 !default;
+// -------- Green --------
+$green-000: var(--green-000);
+$green-100: var(--green-100);
+$green-200: var(--green-200);
+$green-300: var(--green-300);
+$green-400: var(--green-400);
+$green-500: var(--green-500); // Default. passes AA Large
+$green-600: var(--green-600); // Text green, passes AA on #fff
+$green-700: var(--green-700);
+$green-800: var(--green-800);
+$green-900: var(--green-900);
 
-// // -------- Yellow --------
-// $yellow-000:      #fffdef !default;
-// $yellow-100:      #fffbdd !default;
-// $yellow-200:      #fff5b1 !default;
-// $yellow-300:      #ffea7f !default;
-// $yellow-400:      #ffdf5d !default;
-// $yellow-500:      #ffd33d !default;
-// $yellow-600:      #f9c513 !default;
-// $yellow-700:      #dbab09 !default;
-// $yellow-800:      #b08800 !default;
-// $yellow-900:      #735c0f !default;
+// -------- Yellow --------
+$yellow-000: var(--yellow-000);
+$yellow-100: var(--yellow-100);
+$yellow-200: var(--yellow-200);
+$yellow-300: var(--yellow-300);
+$yellow-400: var(--yellow-400);
+$yellow-500: var(--yellow-500);
+$yellow-600: var(--yellow-600);
+$yellow-700: var(--yellow-700);
+$yellow-800: var(--yellow-800);
+$yellow-900: var(--yellow-900);
 
-// // -------- Orange --------
-// $orange-000:      #fff8f2 !default;
-// $orange-100:      #ffebda !default;
-// $orange-200:      #ffd1ac !default;
-// $orange-300:      #ffab70 !default;
-// $orange-400:      #fb8532 !default;
-// $orange-500:      #f66a0a !default; // Default. passes AA Large with #fff
-// $orange-600:      #e36209 !default;
-// $orange-700:      #d15704 !default;
-// $orange-800:      #c24e00 !default;
-// $orange-900:      #a04100 !default;
+// -------- Orange --------
+$orange-000: var(--orange-000);
+$orange-100: var(--orange-100);
+$orange-200: var(--orange-200);
+$orange-300: var(--orange-300);
+$orange-400: var(--orange-400);
+$orange-500: var(--orange-500); // Default. passes AA Large with #fff
+$orange-600: var(--orange-600);
+$orange-700: var(--orange-700);
+$orange-800: var(--orange-800);
+$orange-900: var(--orange-900);
 
-// // -------- Red --------
-// $red-000:         #ffeef0 !default;
-// $red-100:         #ffdce0 !default;
-// $red-200:         #fdaeb7 !default;
-// $red-300:         #f97583 !default;
-// $red-400:         #ea4a5a !default;
-// $red-500:         #d73a49 !default; // Default. passes AA
-// $red-600:         #cb2431 !default;
-// $red-700:         #b31d28 !default;
-// $red-800:         #9e1c23 !default;
-// $red-900:         #86181d !default;
+// -------- Red --------
+$red-000: var(--red-000);
+$red-100: var(--red-100);
+$red-200: var(--red-200);
+$red-300: var(--red-300);
+$red-400: var(--red-400);
+$red-500: var(--red-500); // Default. passes AA
+$red-600: var(--red-600);
+$red-700: var(--red-700);
+$red-800: var(--red-800);
+$red-900: var(--red-900);
 
-// // -------- Purple --------
-// $purple-000:      #f5f0ff !default;
-// $purple-100:      #e6dcfd !default;
-// $purple-200:      #d1bcf9 !default;
-// $purple-300:      #b392f0 !default;
-// $purple-400:      #8a63d2 !default;
-// $purple-500:      #6f42c1 !default; // passes AA with #fff
-// $purple-600:      #5a32a3 !default;
-// $purple-700:      #4c2889 !default;
-// $purple-800:      #3a1d6e !default;
-// $purple-900:      #29134e !default;
+// -------- Purple --------
+$purple-000: var(--purple-000);
+$purple-100: var(--purple-100);
+$purple-200: var(--purple-200);
+$purple-300: var(--purple-300);
+$purple-400: var(--purple-400);
+$purple-500: var(--purple-500); // passes AA with #fff
+$purple-600: var(--purple-600);
+$purple-700: var(--purple-700);
+$purple-800: var(--purple-800);
+$purple-900: var(--purple-900);
 
-// // -------- Fades --------
-// // Black based on same hue as $gray-900
-$black: #fff;
-$white: #1b1f23;
+// -------- Fades --------
+$black: var(--black);
+$white: var(--white);
 
-// $black-fade-15:      rgba($black, 0.15) !default;
-// $black-fade-30:      rgba($black, 0.3) !default;
-// $black-fade-50:      rgba($black, 0.5) !default;
-// $black-fade-70:      rgba($black, 0.7) !default;
-// $black-fade-85:      rgba($black, 0.85) !default;
+$black-fade-15: var(--black-fade-15);
+$black-fade-30: var(--black-fade-30);
+$black-fade-50: var(--black-fade-50);
+$black-fade-70: var(--black-fade-70);
+$black-fade-85: var(--black-fade-85);
 
-// $white-fade-15:      rgba($white, 0.15) !default;
-// $white-fade-30:      rgba($white, 0.3) !default;
-// $white-fade-50:      rgba($white, 0.5) !default;
-// $white-fade-70:      rgba($white, 0.7) !default;
-// $white-fade-85:      rgba($white, 0.85) !default;
+$white-fade-15: var(--white-fade-15);
+$white-fade-30: var(--white-fade-30);
+$white-fade-50: var(--white-fade-50);
+$white-fade-70: var(--white-fade-70);
+$white-fade-85: var(--white-fade-85);
 
-// // -------- Color defaults --------
-// $red:         $red-500 !default;
-// $purple:      $purple-500 !default;
-// $blue:        $blue-500 !default;
-// $green:       $green-500 !default;
-// $yellow:      $yellow-500 !default;
-// $orange:      $orange-500 !default;
+// -------- Color defaults --------
+$red:         $red-500;
+$purple:      $purple-500;
+$blue:        $blue-500;
+$green:       $green-500;
+$yellow:      $yellow-500;
+$orange:      $orange-500;
 
-// $gray-dark:   $gray-900 !default;
-// $gray-light:  $gray-400 !default;
-// $gray:        $gray-500 !default;
+$gray-dark:   $gray-900;
+$gray-light:  $gray-400;
+$gray:        $gray-500;
 
 @import "{{ site.theme }}";
+
+:root {
+  // -------- Grays --------
+  --gray-000: #24292e;
+  --gray-100: #2f363d;
+  --gray-200: #444d56;
+  --gray-300: #586069;
+  --gray-400: #6a737d;
+  --gray-500: #959da5;
+  --gray-600: #d1d5da;
+  --gray-700: #e1e4e8;
+  --gray-800: #f6f8fa;
+  --gray-900: #fafbfc; // body font color
+
+  // -------- Blue --------
+  --blue-000: #f1f8ff;
+  --blue-100: #dbedff;
+  --blue-200: #c8e1ff;
+  --blue-300: #79b8ff;
+  --blue-400: #2188ff;
+  --blue-500: #0366d6; // Default: Passes AA with #fff
+  --blue-600: #005cc5;
+  --blue-700: #044289;
+  --blue-800: #032f62;
+  --blue-900: #05264c; // Passes with 1/2/300 blues
+
+  // -------- Green --------
+  --green-000: #f0fff4;
+  --green-100: #dcffe4;
+  --green-200: #bef5cb;
+  --green-300: #85e89d;
+  --green-400: #34d058;
+  --green-500: #28a745; // Default. passes AA Large
+  --green-600: #22863a; // Text green, passes AA on #fff
+  --green-700: #176f2c;
+  --green-800: #165c26;
+  --green-900: #144620;
+
+  // -------- Yellow --------
+  --yellow-000: #fffdef;
+  --yellow-100: #fffbdd;
+  --yellow-200: #fff5b1;
+  --yellow-300: #ffea7f;
+  --yellow-400: #ffdf5d;
+  --yellow-500: #ffd33d;
+  --yellow-600: #f9c513;
+  --yellow-700: #dbab09;
+  --yellow-800: #b08800;
+  --yellow-900: #735c0f;
+
+  // -------- Orange --------
+  --orange-000: #fff8f2;
+  --orange-100: #ffebda;
+  --orange-200: #ffd1ac;
+  --orange-300: #ffab70;
+  --orange-400: #fb8532;
+  --orange-500: #f66a0a; // Default. passes AA Large with #fff
+  --orange-600: #e36209;
+  --orange-700: #d15704;
+  --orange-800: #c24e00;
+  --orange-900: #a04100;
+
+  // -------- Red --------
+  --red-000: #ffeef0;
+  --red-100: #ffdce0;
+  --red-200: #fdaeb7;
+  --red-300: #f97583;
+  --red-400: #ea4a5a;
+  --red-500: #d73a49; // Default. passes AA
+  --red-600: #cb2431;
+  --red-700: #b31d28;
+  --red-800: #9e1c23;
+  --red-900: #86181d;
+
+  // -------- Purple --------
+  --purple-000: #f5f0ff;
+  --purple-100: #e6dcfd;
+  --purple-200: #d1bcf9;
+  --purple-300: #b392f0;
+  --purple-400: #8a63d2;
+  --purple-500: #6f42c1; // passes AA with #fff
+  --purple-600: #5a32a3;
+  --purple-700: #4c2889;
+  --purple-800: #3a1d6e;
+  --purple-900: #29134e;
+
+  // -------- Fades --------
+  // Black based on same hue as gray-900
+  --black: #fff;
+  --white: #1b1f23;
+
+  --black-fade-15: color(from var(--black) srgb r g b / 0.15);
+  --black-fade-30: color(from var(--black) srgb r g b / 0.3);
+  --black-fade-50: color(from var(--black) srgb r g b / 0.5);
+  --black-fade-70: color(from var(--black) srgb r g b / 0.7);
+  --black-fade-85: color(from var(--black) srgb r g b / 0.85);
+
+  --white-fade-15: color(from var(--white) srgb r g b / 0.15);
+  --white-fade-30: color(from var(--white) srgb r g b / 0.3);
+  --white-fade-50: color(from var(--white) srgb r g b / 0.5);
+  --white-fade-70: color(from var(--white) srgb r g b / 0.7);
+  --white-fade-85: color(from var(--white) srgb r g b / 0.85);
+
+  // -------- Color defaults --------
+  --red: var(--red-500);
+  --purple: var(--purple-500);
+  --blue: var(--blue-500);
+  --green: var(--green-500);
+  --yellow: var(--yellow-500);
+  --orange: var(--orange-500);
+
+  --gray-dark: var(--gray-900);
+  --gray-light: var(--gray-400);
+  --gray: var(--gray-500);
+}

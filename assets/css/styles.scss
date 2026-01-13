@@ -1,6 +1,7 @@
 ---
 ---
 
+@import "{{ site.theme }}";
 //
 //
 // -------- Grays --------
@@ -115,5 +116,3 @@ $gray-900:        #fafbfc; // body font color
 // $gray-dark:   $gray-900 !default;
 // $gray-light:  $gray-400 !default;
 // $gray:        $gray-500 !default;
-
-@import "jekyll-theme-primer";

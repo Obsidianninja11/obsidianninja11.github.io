@@ -2,5 +2,5 @@
 layout: null
 sitemap: false
 redirect_to:
-  - https://youtu.be/dQw4w9WgXcQ
+  - https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ---
